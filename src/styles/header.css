@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--header-height);
+}
+
+.headerMenuContainer {
+    display: flex;
+    gap: var(--small-gap);
+}
+
+.headerMenuItem {
+    list-style: none;
+}
+
+.headerMenuLink {
+    text-decoration: none;
+}
