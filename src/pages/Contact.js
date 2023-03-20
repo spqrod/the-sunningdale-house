@@ -34,7 +34,11 @@ export default function Contact() {
                     <TextField label="Email" required variant="outlined" type="email"/>
                     <TextField label="Phone" required variant="outlined" type="tel"/>
                     <TextField label="Your message" required variant="outlined" type="text" multiline rows={5} fullWidth/>
-                    <Button className="formButton" variant="contained" size="large" endIcon={<SendIcon />}>Send Message</Button>
+                    <Button className="formButton" variant="contained" size="large"
+                    sx={{
+                        backgroundColor: "white",
+                        color: "black"
+                    }}>Send Message</Button>
                 </form>
             </section>
         </main>
