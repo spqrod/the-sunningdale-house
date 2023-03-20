@@ -10,7 +10,7 @@ import Button from "@mui/material/Button";
 
 export default function Contact() {
     return (
-        <main>
+        <main className="contactPage">
             <section>
                 <h1>Get In Touch!</h1>
                 <div className="contactOptionsContainer">
@@ -37,7 +37,8 @@ export default function Contact() {
                     <Button className="formButton" variant="contained" size="large"
                     sx={{
                         backgroundColor: "white",
-                        color: "black"
+                        color: "black",
+                        border: "1px solid black"
                     }}>Send Message</Button>
                 </form>
             </section>

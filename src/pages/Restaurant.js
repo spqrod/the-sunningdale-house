@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 
 export default function Restaurant() {
     return (
-        <main>
+        <main className="restaurantPage">
             <section className="heroSection">
                 <h1>Hero Section</h1>
                 <div className="heroInfoContainer">
@@ -42,7 +42,7 @@ export default function Restaurant() {
             </section>
             <section className="menuSection">
                 <h2>Menu Section</h2>
-                <p>Just a text description of what we serve?</p>
+                <p>Just a text and photo description of what we serve?</p>
                 <p>Or a downloadable .pdf?</p>
                 <p>Or a dynamic menu like this one: <a href='https://www.jupiterrestaurant.nyc/menus/#dinner'>https://www.jupiterrestaurant.nyc/menus/#dinner</a></p>
             </section>

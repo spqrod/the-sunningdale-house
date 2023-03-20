@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import LocalDiningIcon from '@mui/icons-material/LocalDining';
 import "../styles/header.css";
+import Button from "@mui/material/Button";
 
 export default function Header() {
     return (
@@ -37,6 +38,15 @@ export default function Header() {
                     </Link>
                 </li>
             </ul>
+            <div className="headerReserveButtonContainer">
+                <Button variant="contained" size="large"
+                        sx={{
+                            backgroundColor: "white",
+                            color: "black",
+                            border: "1px solid black"
+                        }}>Reserve
+                </Button>
+            </div>
         </header>
     );
 }

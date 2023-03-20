@@ -3,17 +3,19 @@
     justify-content: space-between;
     align-items: center;
     height: var(--header-height);
+    border-bottom: 1px solid black;
 }
 
-.headerMenuContainer {
+.header .headerMenuContainer {
     display: flex;
+    align-items: center;
     gap: var(--small-gap);
 }
 
-.headerMenuItem {
+.header .headerMenuItem {
     list-style: none;
 }
 
-.headerMenuLink {
+.header .headerMenuLink {
     text-decoration: none;
 }

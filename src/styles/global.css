@@ -22,11 +22,13 @@ h1, h2, p, span, a, div {
 h1 {
     font-size: 38px;
     text-align: center;
+    padding-bottom: var(--big-gap);
 }
 
 h2 {
     font-size: 28px;
     text-align: center;
+    padding-bottom: var(--big-gap);
 }
 
 p, a, span, div {
