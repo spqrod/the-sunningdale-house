@@ -42,3 +42,9 @@
 .restaurantPage .chefInfoContainer {
     flex-basis: 50%;
 }
+
+.restaurantPage .reserveTableSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

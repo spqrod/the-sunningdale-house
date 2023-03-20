@@ -22,6 +22,11 @@ export default function Footer() {
             </div>
             <ul className="footerMenuContainer">
                 <li className="footerMenuItem">
+                    <Link className="footerMenuLink" to="/">
+                        Home
+                    </Link>
+                </li>
+                <li className="footerMenuItem">
                     <Link className="footerMenuLink" to="/rooms">
                         Rooms
                     </Link>

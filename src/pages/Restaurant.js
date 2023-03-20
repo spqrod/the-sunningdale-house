@@ -28,7 +28,7 @@ export default function Restaurant() {
                         </Button>
                     </div>
                 </div>
-                <p>Beautiful photo on the background</p>
+                <p>Beautiful photo in the background</p>
             </section>
             <section className="chefSection">
                 <h2>Chef Section</h2>
@@ -88,6 +88,13 @@ export default function Restaurant() {
             </section>
             <section className="reserveTableSection">
                 <h2>Reserve a Table Section</h2>
+                <Button variant="contained" size="large"
+                            sx={{
+                                backgroundColor: "white",
+                                color: "black",
+                                border: "1px solid black"
+                            }}>Reserve Table
+                </Button>
             </section>
             <section className="eventsSection">
                 <h2>Events Section</h2>
