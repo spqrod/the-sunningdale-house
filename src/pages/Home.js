@@ -1,6 +1,7 @@
 import "../styles/home.css";
 import Button from "@mui/material/Button"
 import PhotoOutlinedIcon from "@mui/icons-material/PhotoOutlined";
+import PersonIcon from '@mui/icons-material/Person';
 
 export default function Home() {
     return (
@@ -47,14 +48,68 @@ export default function Home() {
                     <PhotoOutlinedIcon sx={{fontSize: "300px"}} />
                 </div>
             </section>
-            <section className="whatOurGuestsSaySection">
+            <section className="reviewsSection">
                 <h2>What Our Guests Say Section</h2>
-                <p>?</p>
+                <div className="reviewsContainer">
+                    <div className="reviewContainer">
+                        <PersonIcon sx={{fontSize: "100px"}} />
+                        <div className="reviewInfoContainer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque quas facere officiis quasi, assumenda doloremque, laborum in.</p><br></br>
+                            <p>Arthur Conan Doyle</p>
+                        </div>
+                    </div>
+                    <div className="reviewContainer">
+                        <PersonIcon sx={{fontSize: "100px"}} />
+                        <div className="reviewInfoContainer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque quas facere officiis quasi, assumenda doloremque, laborum in.</p><br></br>
+                            <p>Winston Churchill</p>
+                        </div>
+                    </div>
+                    <div className="reviewContainer">
+                        <PersonIcon sx={{fontSize: "100px"}} />
+                        <div className="reviewInfoContainer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque quas facere officiis quasi, assumenda doloremque, laborum in.</p><br></br>
+                            <p>Mark Manson</p>
+                        </div>
+                    </div>
+                    <div className="reviewContainer">
+                        <PersonIcon sx={{fontSize: "100px"}} />
+                        <div className="reviewInfoContainer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque quas facere officiis quasi, assumenda doloremque, laborum in.</p><br></br>
+                            <p>William Shirer</p>
+                        </div>
+                    </div>
+                </div>
             </section>
-            <section className="thingsToDoInLusakaSection">
-                <h2>Things To Do In Lusaka</h2>
-                <p>?</p>
+            <section className="blogSection">
+                <h2>Things To Do In Lusaka Section</h2>
+                <div className="blogPostsContainer">
+                    <div className="blogPostContainer">
+                        <PhotoOutlinedIcon sx={{fontSize: "100px"}} />
+                        <p className="blogPostName">Top 10 Places To Dine In Lusaka</p>
+                    </div>
+                    <div className="blogPostContainer">
+                        <PhotoOutlinedIcon sx={{fontSize: "100px"}} />
+                        <p className="blogPostName">Top 10 Places To Stay In Lusaka</p>
+                    </div>
+                    <div className="blogPostContainer">
+                        <PhotoOutlinedIcon sx={{fontSize: "100px"}} />
+                        <p className="blogPostName">Top Shopping Places In Lusaka</p>
+                    </div>
+                    <div className="blogPostContainer">
+                        <PhotoOutlinedIcon sx={{fontSize: "100px"}} />
+                        <p className="blogPostName">Top 10 Safaris In Lusaka</p>
+                    </div>
+                </div>
+                <Button variant="contained" size="large" href="/things-to-do-in-lusaka"
+                            sx={{
+                                backgroundColor: "white",
+                                color: "black",
+                                border: "1px solid black"
+                            }}>Read More
+                    </Button>
             </section>
+            
         </main>
     );
 }
