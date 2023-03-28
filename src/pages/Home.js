@@ -2,6 +2,8 @@ import "../styles/home.css";
 import Button from "@mui/material/Button"
 import PhotoOutlinedIcon from "@mui/icons-material/PhotoOutlined";
 import PersonIcon from '@mui/icons-material/Person';
+import { Link } from "react-router-dom";
+
 
 export default function Home() {
     return (
@@ -22,7 +24,7 @@ export default function Home() {
                 <div className="restaurantInfoContainer">
                     <h2>The Sunningdale House Restaurant</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sint ut omnis voluptas beatae voluptatibus laboriosam, sed consequuntur. In, perferendis?</p>
-                    <Button variant="contained" size="large" href="/restaurant"
+                    <Button component={Link} to="/restaurant" variant="contained" size="large"
                             sx={{
                                 backgroundColor: "white",
                                 color: "black",
@@ -36,7 +38,7 @@ export default function Home() {
                 <div className="roomsInfoContainer">
                     <h2>The Sunningdale House Hotel</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sint ut omnis voluptas beatae voluptatibus laboriosam, sed consequuntur. In, perferendis?</p>
-                    <Button variant="contained" size="large" href="/rooms"
+                    <Button component={Link} to="/rooms" variant="contained" size="large" 
                             sx={{
                                 backgroundColor: "white",
                                 color: "black",
@@ -101,13 +103,13 @@ export default function Home() {
                         <p className="blogPostName">Top 10 Safaris In Lusaka</p>
                     </div>
                 </div>
-                <Button variant="contained" size="large" href="/things-to-do-in-lusaka"
+                <Button component={Link} to="/things-to-do-in-lusaka" variant="contained" size="large"
                             sx={{
                                 backgroundColor: "white",
                                 color: "black",
                                 border: "1px solid black"
                             }}>Read More
-                    </Button>
+                </Button>
             </section>
             
         </main>

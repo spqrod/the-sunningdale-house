@@ -98,6 +98,7 @@ export default function Restaurant() {
             </section>
             <section className="eventsSection">
                 <h2>Events Section</h2>
+                <p>Are we going to have events?</p>
             </section>
         </main>
     );
