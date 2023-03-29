@@ -1,25 +1,13 @@
 import { Link } from "react-router-dom";
+import SocialLinks from "../components/SocialLinks";
 import LocalDiningIcon from '@mui/icons-material/LocalDining';
 import "../styles/footer.css";
 
 export default function Footer() {
     const year = new Date().getFullYear();
     return (
-        <footer className="footer main">
-            <div className="footerContactsContainer">
-                <div className="footerContactsItem">
-                    Phone
-                </div>
-                <div className="footerContactsItem">
-                    Address
-                </div>
-                <div className="footerContactsItem">
-                    Email
-                </div>
-                <div className="footerContactsItem">
-                    WhatsApp
-                </div>
-            </div>
+        <footer className="footer">
+            <SocialLinks />
             <ul className="footerMenuContainer">
                 <li className="footerMenuItem">
                     <Link className="footerMenuLink" to="/">

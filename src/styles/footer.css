@@ -6,11 +6,6 @@
     border-top: 1px solid black;
 }
 
-.footerContactsContainer {
-    display: flex;
-    gap: var(--small-gap);
-}
-
 .footerMenuContainer {
     display: flex;
     gap: var(--small-gap);

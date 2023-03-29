@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 
 export default function Header() {
     return (
-        <header className="header main">
+        <header className="header">
             <div className="logoContainer">
                 <Link to="/">
                     <LocalDiningIcon />
@@ -23,13 +23,13 @@ export default function Header() {
                     </Link>
                 </li>
                 <li className="headerMenuItem">
-                    <Link className="headerMenuLink" to="/contact">
-                        Contact
+                    <Link className="headerMenuLink" to="/things-to-do-in-lusaka">
+                        Things To Do In Lusaka
                     </Link>
                 </li>
                 <li className="headerMenuItem">
-                    <Link className="headerMenuLink" to="/things-to-do-in-lusaka">
-                        Things To Do In Lusaka
+                    <Link className="headerMenuLink" to="/contact">
+                        Contact
                     </Link>
                 </li>
                 <li className="headerMenuItem">
