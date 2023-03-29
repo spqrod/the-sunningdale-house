@@ -1,6 +1,7 @@
 .contactPage .contactOptionsContainer {
     display: flex;
     justify-content: space-evenly;
+    gap: var(--big-gap);
 }
 
 .contactPage .contactOptionsItem {
