@@ -8,6 +8,7 @@
     top: 0;
     background-color: white;
     z-index: 1;
+    padding-top: 60px !important;
 }
 
 .header .headerMenuContainer {
@@ -18,8 +19,4 @@
 
 .header .headerMenuItem {
     list-style: none;
-}
-
-.header .headerMenuLink {
-    text-decoration: none;
 }

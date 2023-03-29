@@ -6,9 +6,10 @@ import Button from "@mui/material/Button";
 export default function Header() {
     return (
         <header className="header">
+            <p className="explanationTextForClient">Header with logo, menu and "Reserve" button</p>
             <div className="logoContainer">
                 <Link to="/">
-                    <LocalDiningIcon />
+                    <b>LOGO</b>
                 </Link>
             </div>
             <ul className="headerMenuContainer">

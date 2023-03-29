@@ -7,6 +7,7 @@ export default function Footer() {
     const year = new Date().getFullYear();
     return (
         <footer className="footer">
+            <p className="explanationTextForClient">Footer with contact icons, menu and "All rights reserved" line</p>
             <SocialLinks />
             <ul className="footerMenuContainer">
                 <li className="footerMenuItem">

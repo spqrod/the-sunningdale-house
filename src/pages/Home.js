@@ -9,15 +9,15 @@ export default function Home() {
     return (
         <main className="homePage">
             <section className="heroSection">
-                <h1>Hero Section</h1>
-                <div className="roomsInfoContainer">
-                    <h1>Welcome To The Sunningdale House</h1>
-                    <h2>A place of peaceful rest and exquisite cousine in the heart of Lusaka</h2>
-                    <p>Beautiful photos in the background</p>
-                </div>
+                <h1 className="explanationHeaderForClient">Hero Section</h1>
+                <p className="explanationTextForClient">This is the first thing users see. It will be a full screen section with a catchy short phrase which describes the business well, a beautiful photo in the background and a button for our target action.</p>
+                <h1>Welcome To The Sunningdale House</h1>
+                <h2>A place of peaceful rest and exquisite cousine in the heart of Lusaka</h2>
+                <p>Beautiful photos in the background</p>
             </section>
             <section className="restaurantSection">
-                <h2>Restaurant Section</h2>
+                <h1 className="explanationHeaderForClient">Restaurant Section</h1>
+                <p className="explanationTextForClient">Here we will have a text about the restaurant, the chef, a gallery or slider with photos and a button that leads to the restaurant page.</p>
                 <div className="restaurantPhotoContainer">
                     <PhotoOutlinedIcon sx={{fontSize: "300px"}} />
                 </div>
@@ -34,7 +34,8 @@ export default function Home() {
                 </div>
             </section>
             <section className="roomsSection">
-                <h2>Rooms Section</h2>
+                <h1 className="explanationHeaderForClient">Rooms Section</h1>
+                <p className="explanationTextForClient">Here we will have a text about the hotel, room types, a gallery or slider with photos and a button that leads to the hotel page.</p>
                 <div className="roomsInfoContainer">
                     <h2>The Sunningdale House Hotel</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sint ut omnis voluptas beatae voluptatibus laboriosam, sed consequuntur. In, perferendis?</p>
@@ -51,7 +52,9 @@ export default function Home() {
                 </div>
             </section>
             <section className="reviewsSection">
-                <h2>What Our Guests Say Section</h2>
+                <h1 className="explanationHeaderForClient">Reviews Section</h1>
+                <p className="explanationTextForClient">It's a social trust signal section – a very important part for conversions. It's best to have real reviews from Google here.</p>
+                <h2>What Our Guests Say</h2>
                 <div className="reviewsContainer">
                     <div className="reviewContainer">
                         <PersonIcon sx={{fontSize: "100px"}} />
@@ -84,7 +87,9 @@ export default function Home() {
                 </div>
             </section>
             <section className="blogSection">
-                <h2>Things To Do In Lusaka Section</h2>
+                <h1 className="explanationHeaderForClient">Blog Section</h1>
+                <p className="explanationTextForClient">Here we showcase our blog posts. Clicking on an item takes you to the blog post page. A "Read more" button at the bottom takes to the main blog page.</p>
+                <h2>Things To Do In Lusaka</h2>
                 <div className="blogPostsContainer">
                     <div className="blogPostContainer">
                         <PhotoOutlinedIcon sx={{fontSize: "100px"}} />
