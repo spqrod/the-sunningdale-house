@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -9,13 +10,16 @@ function Footer() {
         <div className="icon">IG</div>
       </div>
       <div className="footer-menu">
-        <a href="/home">Home</a>
-        <a href="/rooms">Rooms</a>
-        <a href="/events">Events</a>
-        <a href="/contact">Contact</a>
-        <a href="/about">About</a>
-        <a href="/privacy">Privacy Policy</a>
-        <a href="/terms">Terms of Service</a>
+
+        <Link to="/">Home</Link>
+        <Link to="/reserve">Reserve</Link>
+        <Link to="/rooms">Rooms</Link>
+        <Link to="/events">Events</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/about">About</Link>
+        <Link to="/privacy">Privacy Policy</Link>
+        <Link to="/terms">Terms of Service</Link>
+
       </div>
       <p>Sunningdale House © 2024. All rights reserved.</p>
     </footer>

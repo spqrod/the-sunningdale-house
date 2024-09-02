@@ -5,10 +5,10 @@ function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/home" className="logo-placeholder">Logo</Link>
+        <Link to="/" className="logo-placeholder">Logo</Link>
       </div>
       <nav className="nav">
-        <Link to="/home">Home</Link>
+        <Link to="/reserve">Reserve</Link>
         <Link to="/rooms">Rooms</Link>
         <Link to="/events">Events</Link>
         <Link to="/contact">Contact</Link>
