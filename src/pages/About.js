@@ -1,41 +1,125 @@
-import PersonIcon from '@mui/icons-material/Person';
-import "../styles/about.css"
+import React from 'react';
 
-export default function About() {
-    return (
-        <main>
-            <section>
-                <h1>About</h1>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam aspernatur dolor sit alias asperiores. Id perspiciatis saepe delectus blanditiis, voluptate consequuntur reprehenderit odio. Illo, eius iure fugiat eveniet, error modi laudantium distinctio, delectus veritatis quae earum accusamus ad rerum quia? Optio numquam enim, quia veritatis exercitationem sit ut alias harum itaque! Odit, aspernatur maxime quasi ab repudiandae quod ullam, sunt provident a veniam dicta beatae saepe obcaecati soluta iste consectetur nesciunt quidem ratione quam eum in? Modi soluta quam adipisci distinctio, maxime aut dolore labore! Illo excepturi sit in et reiciendis? Sed culpa possimus sunt harum, eos distinctio amet animi!
-                </p>
-            </section>
-            <section>
-                <h2>Meet The Team</h2>
-                <div className="teamContainer">
-                    <div className="teamMemberContainer">
-                        <PersonIcon />
-                        <p>George Orwell</p>
-                        <p>General Director</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis molestias illo laboriosam eaque obcaecati hic, necessitatibus delectus, cum eius doloremque voluptates provident. Officiis voluptatibus quam repellat officia vitae. Placeat, quas!
-                        </p>
-                    </div>
-                    <div className="teamMemberContainer">
-                        <PersonIcon />
-                        <p>Stephen Hawking</p>
-                        <p>Accountant</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis molestias illo laboriosam eaque obcaecati hic, necessitatibus delectus, cum eius doloremque voluptates provident. Officiis voluptatibus quam repellat officia vitae. Placeat, quas!
-                        </p>
-                    </div>
-                    <div className="teamMemberContainer">
-                        <PersonIcon />
-                        <p>Richard Dawkins</p>
-                        <p>Marketer</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis molestias illo laboriosam eaque obcaecati hic, necessitatibus delectus, cum eius doloremque voluptates provident. Officiis voluptatibus quam repellat officia vitae. Placeat, quas!
-                        </p>
-                    </div>
-                </div>
-            </section>
-        </main>
-    );
+function About() {
+  return (
+    <div className="about">
+
+      <section className="section info">
+        <h1>About Sinningdale House</h1>
+
+        <div className='contentContainer'>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates a laudantium nesciunt vero explicabo iure, possimus, accusamus temporibus excepturi illo eius voluptas facere reiciendis nobis ad neque impedit vel velit.<br></br><br></br>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, quam!
+          
+          </p>
+          <div className="placeholder">
+            Image
+          </div>
+        </div>
+
+        <div className='contentContainer'>
+
+          <div className="placeholder">
+            Image
+          </div>
+
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates a laudantium nesciunt vero explicabo iure, possimus, accusamus temporibus excepturi illo eius voluptas facere reiciendis nobis ad neque impedit vel velit.<br></br><br></br>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, quam!
+          </p>
+        </div>
+        
+      </section>
+
+      <section className="section team">
+        <h2>Meet Our Team</h2>
+
+        <div className="teamMembersContainer">
+
+          <div className="team-member">
+            <div className="photo">
+              
+            </div>
+            <div className="info">
+              <div className="name">John Doe</div>
+              <div className="position">Manager</div>
+            </div>
+          </div>
+
+          <div className="team-member">
+            <div className="photo">
+              
+            </div>
+            <div className="info">
+              <div className="name">Jane Smith</div>
+              <div className="position">Receptionist</div>
+            </div>
+          </div>
+
+          <div className="team-member">
+            <div className="photo">
+              
+            </div>
+            <div className="info">
+              <div className="name">Emily Johnson</div>
+              <div className="position">Housekeeper</div>
+            </div>
+          </div>
+
+          <div className="team-member">
+            <div className="photo">
+              
+            </div>
+            <div className="info">
+              <div className="name">Michael Brown</div>
+              <div className="position">Chef</div>
+            </div>
+          </div>
+
+          <div className="team-member">
+            <div className="photo">
+              
+            </div>
+            <div className="info">
+              <div className="name">Sarah Davis</div>
+              <div className="position">Concierge</div>
+            </div>
+          </div>
+
+          <div className="team-member">
+            <div className="photo">
+              
+            </div>
+            <div className="info">
+              <div className="name">David Wilson</div>
+              <div className="position">Bartender</div>
+            </div>
+          </div>
+
+          <div className="team-member">
+            <div className="photo">
+              
+            </div>
+            <div className="info">
+              <div className="name">Laura Martinez</div>
+              <div className="position">Event Coordinator</div>
+            </div>
+          </div>
+
+          <div className="team-member">
+            <div className="photo">
+              
+            </div>
+            <div className="info">
+              <div className="name">Chris Anderson</div>
+              <div className="position">Maintenance</div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+    </div>
+  );
 }
+
+export default About;

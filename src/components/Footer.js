@@ -1,59 +1,25 @@
-import { Link } from "react-router-dom";
-import SocialLinks from "../components/SocialLinks";
-import LocalDiningIcon from '@mui/icons-material/LocalDining';
-import "../styles/footer.css";
+import React from 'react';
 
-export default function Footer() {
-    const year = new Date().getFullYear();
-    return (
-        <footer className="footer">
-            <p className="explanationTextForClient">Footer with contact icons, menu and "All rights reserved" line</p>
-            <SocialLinks />
-            <ul className="footerMenuContainer">
-                <li className="footerMenuItem">
-                    <Link className="footerMenuLink" to="/">
-                        Home
-                    </Link>
-                </li>
-                <li className="footerMenuItem">
-                    <Link className="footerMenuLink" to="/rooms">
-                        Rooms
-                    </Link>
-                </li>
-                <li className="footerMenuItem">
-                    <Link className="footerMenuLink" to="/restaurant">
-                        Restaurant
-                    </Link>
-                </li>
-                <li className="footerMenuItem">
-                    <Link className="footerMenuLink" to="/contact">
-                        Contact
-                    </Link>
-                </li>
-                <li className="footerMenuItem">
-                    <Link className="footerMenuLink" to="/things-to-do-in-lusaka">
-                        Things To Do In Lusaka
-                    </Link>
-                </li>
-                <li className="footerMenuItem">
-                    <Link className="footerMenuLink" to="/about">
-                        About
-                    </Link>
-                </li>
-                <li className="footerMenuItem">
-                    <Link className="footerMenuLink" to="/privacy-policy">
-                        Privacy Policy
-                    </Link>
-                </li>
-                <li className="footerMenuItem">
-                    <Link className="footerMenuLink" to="/terms-of-service">
-                        Terms Of Service
-                    </Link>
-                </li>
-            </ul>
-            <p>
-                The Sunningdale House © { year }. All Rights Reserved
-            </p>
-        </footer>
-    );
+function Footer() {
+  return (
+    <footer className="footer">
+      <div className="social-icons">
+        <div className="icon">FB</div>
+        <div className="icon">TW</div>
+        <div className="icon">IG</div>
+      </div>
+      <div className="footer-menu">
+        <a href="/home">Home</a>
+        <a href="/rooms">Rooms</a>
+        <a href="/events">Events</a>
+        <a href="/contact">Contact</a>
+        <a href="/about">About</a>
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms of Service</a>
+      </div>
+      <p>Sunningdale House © 2024. All rights reserved.</p>
+    </footer>
+  );
 }
+
+export default Footer;
